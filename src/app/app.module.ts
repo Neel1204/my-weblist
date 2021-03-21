@@ -10,6 +10,7 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { ShowInfoComponent } from './show-info/show-info.component';
 import { ShowDetailsComponent } from './show-details/show-details.component';
 import { WatchlistComponent } from './watchlist/watchlist.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
@@ -41,7 +42,8 @@ import { ErrorComponent } from './error/error.component';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
-    MatTableModule
+    MatTableModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -27,7 +27,7 @@ export class DummyService {
         id: 210,
         summary: 'A show about magicians and their trauma.',
         status: 'ongoing',
-        image: 'https://static.tvmaze.com/uploads/images/medium_portrait/231/579166.jpg'
+        image: 'https://static.tvmaze.com/uploads/images/medium_portrait/35/88399.jpg'
       }),
       new Show({
         name: 'Smallville',
@@ -36,7 +36,7 @@ export class DummyService {
         id: 220,
         summary: 'A show about Superman as a teenager.',
         status: 'ongoing',
-        image: 'https://static.tvmaze.com/uploads/images/medium_portrait/231/579166.jpg'
+        image: 'https://static.tvmaze.com/uploads/images/medium_portrait/79/199609.jpg'
       })];
     this.episodes = [
       new Episode({
